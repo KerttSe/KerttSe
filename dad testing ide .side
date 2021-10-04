@@ -1,0 +1,127 @@
+{
+  "id": "0f6dbdaf-74fd-48c5-a40b-822a2ffea52a",
+  "version": "2.0",
+  "name": "dad testing ide ",
+  "url": "https://prom.ua/",
+  "tests": [{
+    "id": "dbb1e6fc-f4d4-4bf5-b248-86e182ceceb9",
+    "name": "prom ua ",
+    "commands": [{
+      "id": "6068bdd7-e896-4a4f-ba15-bba0ccb8e63c",
+      "comment": "",
+      "command": "open",
+      "target": "https://prom.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "554eb60a-226d-4e72-8c8e-05a6ffcead46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1539x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ecd3f53-935a-4508-8bdc-6266ba6fbdfc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,75)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebd9b522-2fbe-43ca-be4e-c06307c13e38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мелкая бытовая техника для кухни",
+      "targets": [
+        ["linkText=Мелкая бытовая техника для кухни", "linkText"],
+        ["css=.\\_1Sj7w:nth-child(2) > .\\_1KcTA:nth-child(2) > .\\_2KaCs", "css:finder"],
+        ["xpath=//a[contains(text(),'Мелкая бытовая техника для кухни')]", "xpath:link"],
+        ["xpath=//div[@id='page-block']/div/div[5]/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Kuhonnaya-melkaya-bytovaya-tehnika')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мелкая бытовая техника для кухни')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fc99512-4dc5-4259-b4b9-2c4a34c3905f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9897e58f-04ec-4a0d-889d-d7037fed9ebd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мясорубки электрические бытовые",
+      "targets": [
+        ["linkText=Мясорубки электрические бытовые", "linkText"],
+        ["css=.yJNOx:nth-child(2) > .\\_1KcTA > .\\_1KcTA > .\\_2KaCs", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[5]/div[2]/div[2]/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Myasorubki')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мясорубки электрические бытовые')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "154dfb7a-345b-434e-ab98-54243a6224ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-productad:nth-child(2) > .\\_1KcTA > .\\_2KaCs",
+      "targets": [
+        ["css=.js-productad:nth-child(2) > .\\_1KcTA > .\\_2KaCs", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[5]/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/p1473342557-myasorubka-royals-berg.html?token=v2%3ASxcuJ8sKypB_Bdt-nkIH0ML0Kc08miJgslcxZSgAUZUTAv5CYaZH8M2CTciaUZzijKOl0Aqrgu_vuRPcxkTQWEtwZBpEZmgaJgQ7uFeBsCJIXZzL9g&campaign_id=2586203&product_id=1473342557&source=prom%3Acatalog&locale=ru&category_ids=63005&from_spa=true')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eefdfb8-1d22-4bf4-8238-388c85360c14",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-productad:nth-child(2) > .\\_1KcTA > .\\_2KaCs",
+      "targets": [
+        ["css=.js-productad:nth-child(2) > .\\_1KcTA > .\\_2KaCs", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[5]/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/p1473342557-myasorubka-royals-berg.html?token=v2%3ASxcuJ8sKypB_Bdt-nkIH0ML0Kc08miJgslcxZSgAUZUTAv5CYaZH8M2CTciaUZzijKOl0Aqrgu_vuRPcxkTQWEtwZBpEZmgaJgQ7uFeBsCJIXZzL9g&campaign_id=2586203&product_id=1473342557&source=prom%3Acatalog&locale=ru&category_ids=63005&from_spa=true')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb1ca402-5f1f-45b5-8f25-c35e77ccc348",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,342)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "486b77bf-af8c-42f0-8aac-a0090db28596",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,570)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ccde8dd-eb56-4368-9d7e-5ca7794b6ec8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1KcTA:nth-child(4) .-PuUt:nth-child(3) .xNuiY",
+      "targets": [
+        ["css=.\\_1KcTA:nth-child(4) .-PuUt:nth-child(3) .xNuiY", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[4]/div[3]/div[2]/div/div/div/div/div[4]/div[3]/div[3]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "207737e9-5af7-49ec-9098-2a2b16c2c0a6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbb1e6fc-f4d4-4bf5-b248-86e182ceceb9"]
+  }],
+  "urls": ["https://prom.ua/"],
+  "plugins": []
+}

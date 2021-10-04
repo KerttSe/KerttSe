@@ -1,0 +1,78 @@
+{
+  "id": "f0790d67-8b6a-422e-948d-c48b5c1b410a",
+  "version": "2.0",
+  "name": "dad auto rica rozetka ",
+  "url": "https://rozetka.com.ua/",
+  "tests": [{
+    "id": "0d16eb65-4f12-4f6c-8ed1-967ec059985a",
+    "name": "rozekta",
+    "commands": [{
+      "id": "4e2b7023-3658-4e73-ae4b-711f0e01a150",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6d47f4d-6a80-4b81-b92a-d58797d5fabf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1539x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "210ffad1-e40c-4b6e-b495-193dd5370632",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки и компьютеры",
+      "targets": [
+        ["linkText=Ноутбуки и компьютеры", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(1) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки и компьютеры')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/computers-notebooks/c80253/')])[2]", "xpath:href"],
+        ["xpath=//sidebar-fat-menu/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1595bc8c-4ad7-4113-add1-d12d3137068f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2e290dc-c295-4439-889f-d186f50aec69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.widget:nth-child(2) .portal-grid__cell:nth-child(2) .tile-cats__picture > .ng-star-inserted",
+      "targets": [
+        ["css=.widget:nth-child(2) .portal-grid__cell:nth-child(2) .tile-cats__picture > .ng-star-inserted", "css:finder"],
+        ["xpath=//img[@alt='Компьютеры']", "xpath:img"],
+        ["xpath=//li[2]/rz-list-tile/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3252c43-16f3-45a3-8b02-41e94600fd57",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchline",
+      "targets": [
+        ["name=searchline", "name"],
+        ["css=.sidebar-block:nth-child(3) .sidebar-search__input", "css:finder"],
+        ["xpath=//input[@name='searchline']", "xpath:attributes"],
+        ["xpath=//rz-filter-searchline/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d54d36aa-7cf9-4a5a-92c6-cda83d7e2c08",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0d16eb65-4f12-4f6c-8ed1-967ec059985a"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
